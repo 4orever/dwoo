@@ -9,6 +9,9 @@ What's new in this version :
 * New features (blocks/functions/modifiers)
 * Distributed as a PHAR archive
 
+# Recruiting for help!
+If you want to help this project, contact [me](https://github.com/emulienfou), actually I don't have time to work on this project. Thanks!
+
 # WHAT IS DWOO?
 
 Dwoo is a PHP5 Template Engine that was started in early 2008. The idea came
