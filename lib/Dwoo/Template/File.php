@@ -16,7 +16,7 @@ use Dwoo\ITemplate;
  * @date       2013-09-03
  * @package    Dwoo
  */
-class File extends String {
+class File extends Str {
 	/**
 	 * template filename
 	 * @var string

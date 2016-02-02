@@ -20,7 +20,7 @@ use Dwoo\ITemplate;
  * @date       2013-09-08
  * @package    Dwoo
  */
-class String implements ITemplate {
+class Str implements ITemplate {
 	/**
 	 * template name
 	 *

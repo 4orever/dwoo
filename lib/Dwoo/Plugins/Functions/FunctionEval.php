@@ -2,7 +2,7 @@
 namespace Dwoo\Plugins\Functions;
 
 use Dwoo\Plugin;
-use Dwoo\Template\String;
+use Dwoo\Template\Str;
 
 /**
  * Evaluates the given string as if it was a template
@@ -35,7 +35,7 @@ class FunctionEval extends Plugin {
 			return null;
 		}
 
-		$tpl   = new String($var);
+		$tpl   = new Str($var);
 		$clone = clone $this->core;
 		$out   = $clone->get($tpl, $this->core->readVar('_parent'));
 

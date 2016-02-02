@@ -14,7 +14,7 @@ use Dwoo\Template\File;
  *  SPL and PCRE extensions (for php versions prior to 5.3.0)
  *  mbstring extension for some string manipulation plugins (especially if you intend to use UTF-8)
  * recommended :
- *  hash extension (for Template\String - minor performance boost)
+ *  hash extension (for Template\Str - minor performance boost)
  * </pre>
  * This software is provided 'as-is', without any express or implied warranty.
  * In no event will the authors be held liable for any damages arising from the use of this software.
@@ -167,7 +167,7 @@ class Core {
 		'file'      => array(
 			'class' => '\Dwoo\Template\File', 'compiler' => null
 		), 'string' => array(
-			'class' => '\Dwoo\Template\String', 'compiler' => null
+			'class' => '\Dwoo\Template\Str', 'compiler' => null
 		)
 	);
 
